@@ -19,7 +19,7 @@ jobs:
 
           plugin_languages_ignored: Ren'Py
 
-          base: repositories
+          base: header, repositories
 
           plugin_traffic: yes
           
