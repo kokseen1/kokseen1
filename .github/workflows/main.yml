@@ -20,7 +20,7 @@ jobs:
           plugin_languages_ignored: Ren'Py
 
 
-          base: ""
+          
 
           plugin_music_token: ${{ secrets.LASTFM_TOKEN }}
 
