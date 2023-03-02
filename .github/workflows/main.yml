@@ -19,7 +19,9 @@ jobs:
 
           plugin_languages_ignored: Ren'Py
 
+          base: repositories
 
+          plugin_traffic: yes
           
 
           plugin_music_token: ${{ secrets.LASTFM_TOKEN }}
