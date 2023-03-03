@@ -18,7 +18,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: Ren'Py
           
-          base: header, repositories
+          base: header, activity, community, repositories
           
           plugin_music_token: ${{ secrets.LASTFM_TOKEN }}
           plugin_music: yes
