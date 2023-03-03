@@ -18,7 +18,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: Ren'Py
           
-          base: header, activity, community, repositories
+          base: header, activity, community, repositories, metadata
           
 #           plugin_music_token: ${{ secrets.LASTFM_TOKEN }}
 #           plugin_music: yes
@@ -31,4 +31,6 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_time_range: short
-          plugin_music_top_type: tracks
+          plugin_music_top_type: artists
+          plugin_music_limit: 3
+
